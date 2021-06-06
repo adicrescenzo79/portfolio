@@ -91,7 +91,7 @@ nav{
 }
 
 .navbar-brand{
-  font-size: 20px;
+  font-size: 15px;
 }
 
 
@@ -170,10 +170,13 @@ nav{
   position: relative;
 }
 
+
 #portfolio img{
   height: 154px;
   width: 308.77px;
   border-radius: 7px;
+  border: 2px solid #2C3E50;
+
 }
 
 #portfolio .middle {
@@ -184,7 +187,7 @@ nav{
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  height: 235px;
+  height: 154px;
   width: 100%;
   border-radius: 7px;
 }
@@ -390,6 +393,11 @@ nav{
     border-radius: 0;
   }
 
+  .navbar-brand{
+    font-size: 20px;
+  }
+
+
   .navbar-default .navbar-brand:hover,
   .navbar-default .navbar-brand:focus{
     color: #fff;
@@ -427,6 +435,7 @@ nav{
 
   #about p{
     font-size: 21px;
+    text-align: justify;
   }
 
   #about .my_margin{
