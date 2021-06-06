@@ -131,6 +131,8 @@ nav{
 
 .jumbo img.avatar{
   width: 240px;
+  border-radius: 50%;
+  border: 10px solid #fff;
 }
 
 .jumbo h1{
